@@ -19,9 +19,6 @@
     },
     "db:push": {
       "cache": false
-    },
-    "api#deploy": {
-      "dependsOn": ["api#build", "api#start:prod"]
     }
   }
 }
