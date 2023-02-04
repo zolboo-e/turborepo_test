@@ -11,6 +11,7 @@ import { schema } from "./schema";
 // });
 
 export const apolloServer = new ApolloServer({
+  cache: "bounded",
   context: createContext,
   schema,
 });
