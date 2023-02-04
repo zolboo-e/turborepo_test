@@ -7,13 +7,14 @@ import { contracts } from "ts-rest";
 export const client: InitClientReturn<typeof contracts> = initClient(
   contracts,
   {
-    baseUrl: "http://localhost:3002",
+    baseUrl: process.env.BACKEND_URL!,
     baseHeaders: {},
     api: async ({ path, method, headers, body }) => {
       const response = await fetch(path, {
         method,
         body,
         headers,
+        cache: "no-cache",
       });
 
       if (!response.ok) {
