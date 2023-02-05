@@ -1,10 +1,12 @@
 //
+import "tailwindcss/tailwind.css";
+import "ui/styles.css";
 
 const RootLayout: React.FCC = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <head />
-      <body>{children}</body>
+      <body className="bg-gray-50">{children}</body>
     </html>
   );
 };
