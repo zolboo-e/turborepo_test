@@ -12,6 +12,7 @@
     "@ts-rest/core": "3.16.1",
     "client-only": "0.0.1",
     "database": "workspace:*",
+    "graphql": "^16.6.0",
     "next": "^13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",

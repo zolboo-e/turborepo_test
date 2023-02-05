@@ -157,7 +157,7 @@ importers:
     specifiers:
       '@apollo/server': ^4.3.2
       '@prisma/client': 4.9.0
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
       apollo-server-micro: 3.11.1
       eslint: ^8.33.0
       eslint-config-custom: workspace:*
@@ -180,7 +180,7 @@ importers:
       nexus: 1.3.0_graphql@16.6.0
       nexus-prisma: 1.0.4_4aepgcttsn2li4cgjfzexlzxcu
     devDependencies:
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
       eslint: 8.33.0
       eslint-config-custom: link:../eslint-config-custom
       prisma: 4.9.0
